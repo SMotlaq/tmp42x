@@ -18,7 +18,7 @@ With this library, developers can quickly and easily integrate the TMP42x into t
 
 ## Key Features
 
-* Easy-to-use API for accessing the I2C interfaces of the INA236
+* Easy-to-use API for accessing the I2C interfaces of the TMP42x
 * Support for common I2C operations, such as sending and receiving data, querying the status of the chip, reading the measured parameters, and configuring the TMP42x settings
 * Full feature library
 
@@ -177,6 +177,6 @@ If you want to get the manufacturer or device ID, you can use these functions:
 
 For example:
 ```C
-printf("Manufacturer ID is 0x%2X \r\n", INA236_getManID(&tmp422));
+printf("Manufacturer ID is 0x%2X \r\n", TMP42x_getManID(&tmp422));
 printf("      Device ID is 0x%2X \r\n", TMP42x_getDevID(&tmp422));
 ```
