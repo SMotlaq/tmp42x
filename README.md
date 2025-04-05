@@ -154,7 +154,7 @@ int8_t remote_temp1 = TMP42x_getRemoteTemp_Int(&tmp422, 1);
 int8_t remote_temp2 = TMP42x_getRemoteTemp_Int(&tmp422, 2);
 int8_t local_temp   = TMP42x_getLocalTemp_Int(&tmp422);
 ```
-Each function is described on the [doc page](https://smotlaq.github.io/temp42x/TMP42x_8c.html#a8822aa9e24f446908583fe7cecd18f67).
+Each function is described on the [doc page](https://smotlaq.github.io/temp42x/TMP42x_8c.html#add9510da14cfc5967d0425bb6d2382e8).
 
 ### One-Shot Trigger
 
