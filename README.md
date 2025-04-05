@@ -65,7 +65,7 @@ Is it helpfull?
    ```C
    TMP42x_init(&tmp422, TMP422, &hi2c1, 0x4C, TMP42x_Run, TMP42x_Normal, TMP42x_0_5, 1.008, 1.008, 0);
    ```
-   Each argument is described on the [doc page](https://smotlaq.github.io/tmp42x/_t_m_p42x_8c.html#ad0a1fb414abc2855469d08634cbe4c21).
+   Each argument is described on the [doc page](https://smotlaq.github.io/tmp42x/TMP42x_8c.html#ad0a1fb414abc2855469d08634cbe4c21).
 
 6. Now you can call `TMP42x_getRemoteTemp` function to read the meassured data:
    ```C
@@ -154,11 +154,11 @@ int8_t remote_temp1 = TMP42x_getRemoteTemp_Int(&tmp422, 1);
 int8_t remote_temp2 = TMP42x_getRemoteTemp_Int(&tmp422, 2);
 int8_t local_temp   = TMP42x_getLocalTemp_Int(&tmp422);
 ```
-Each function is described on the [doc page](https://smotlaq.github.io/temp42x/_t_m_p42x_8c.html#a8822aa9e24f446908583fe7cecd18f67).
+Each function is described on the [doc page](https://smotlaq.github.io/temp42x/TMP42x_8c.html#a8822aa9e24f446908583fe7cecd18f67).
 
 ### One-Shot Trigger
 
-Instead of continous conversion (run mode), you can read start a single conversion when the device is in shutdown mode by calling the `TMP42x_oneShotStart` function ([see more](https://smotlaq.github.io/tmp42x/_t_m_p42x_8c.html#a75f165d360795ff352b6716df3d1e886))
+Instead of continous conversion (run mode), you can read start a single conversion when the device is in shutdown mode by calling the `TMP42x_oneShotStart` function ([see more](https://smotlaq.github.io/tmp42x/TMP42x_8c.html#a75f165d360795ff352b6716df3d1e886))
 
 ```C
 TMP42x_oneShotStart(&tmp422);
@@ -167,13 +167,13 @@ double remote_temp1 = TMP42x_getRemoteTemp(&tmp422, 1);
 
 ### Soft Reset
 
-You can send a reset command to TMP42x chip by calling `TMP42x_softwareReset` function. ([see more](https://smotlaq.github.io/tmp42x/_t_m_p42x_8c.html#ac5cb2c0895a3f9a35a263aee39f92d5c))
+You can send a reset command to TMP42x chip by calling `TMP42x_softwareReset` function. ([see more](https://smotlaq.github.io/tmp42x/TMP42x_8c.html#ac5cb2c0895a3f9a35a263aee39f92d5c))
 
 ### Getting Manufacturer and Device ID
 
 If you want to get the manufacturer or device ID, you can use these functions:
-* `TMP42x_getManID` ([see more](https://smotlaq.github.io/tmp42x/_t_m_p42x_8c.html#a11b6c233ddc9a8ba392fd838c50413a9))
-* `TMP42x_getDevID` ([see more](https://smotlaq.github.io/tmp42x/_t_m_p42x_8c.html#a3125ba6aecab65bec02bdabbe8446886))
+* `TMP42x_getManID` ([see more](https://smotlaq.github.io/tmp42x/TMP42x_8c.html#a11b6c233ddc9a8ba392fd838c50413a9))
+* `TMP42x_getDevID` ([see more](https://smotlaq.github.io/tmp42x/TMP42x_8c.html#a3125ba6aecab65bec02bdabbe8446886))
 
 For example:
 ```C
