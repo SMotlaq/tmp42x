@@ -26,7 +26,7 @@
  * MIT License
  *
  * @section start Getting Started
- * Go to [my Github page](https://github.com/SMotlaq/tmp42x) to get started. You can also see the [functions list](./tmp42x_8c.html) to learn more.
+ * Go to [my Github page](https://github.com/SMotlaq/tmp42x) to get started. You can also see the [functions list](./_t_m_p42x_8c.html) to learn more.
  *
  */
 
@@ -138,6 +138,7 @@ TMP42x_Status __TMP42x_writeByte(TMP42x* self, uint8_t MemAddress);
 // Public ------------------------------------
 TMP42x_Status TMP42x_init(TMP42x* self, TMP42x_Type type, I2C_HandleTypeDef* hi2c, uint8_t I2C_ADDR, TMP42x_Shutdown shutdown, TMP42x_Range range, TMP42x_ConversionRate conversion_rate, float n_eff1, float n_eff2, float n_eff3);
 double TMP42x_getLocalTemp(TMP42x* self);
+int8_t TMP42x_getLocalTemp_Int(TMP42x* self);
 double TMP42x_getRemoteTemp(TMP42x* self, uint8_t channel_number);
 int8_t TMP42x_getRemoteTemp_Int(TMP42x* self, uint8_t channel_number);
 TMP42x_Status TMP42x_oneShotStart(TMP42x* self);
