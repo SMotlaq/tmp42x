@@ -13,7 +13,7 @@ The library is designed to be easy to use and provides a simple, intuitive API f
 With this library, developers can quickly and easily integrate the TMP42x into their systems, enabling them to take full advantage of the chip's capabilities.
 
 <p align="center">
-  <img src="https://github.com/SMotlaq/tmp42x/blob/images/images/all.png"/>
+  <img src="https://raw.githubusercontent.com/SMotlaq/tmp42x/images/images/all.png"/>
 </p>
 
 ## Key Features
@@ -31,7 +31,7 @@ The full documents are available [here](https://smotlaq.github.io/tmp42x/)
 Footprint and schematic symbols are available in [my Altium library](https://github.com/SMotlaq/altium-library).
 
 <p align="center">
-  <img src="https://github.com/SMotlaq/tmp42x/blob/images/images/symbols.png"/>
+  <img src="https://raw.githubusercontent.com/SMotlaq/tmp42x/images/images/symbols.png"/>
 </p>
 
 ## Donate
