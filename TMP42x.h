@@ -9,11 +9,11 @@
  * The remote temperature sensor diode-connected transistors are typically low-cost, NPN- or PNP-type transistors
  * or diodes that are an integral part of microcontrollers, microprocessors, or FPGAs.
  *
- * Remote accuracy is ±1°C for multiple IC manufacturers, with no calibration needed. The two-wire serial interface
+ * Remote accuracy is Â±1Â°C for multiple IC manufacturers, with no calibration needed. The two-wire serial interface
  * accepts SMBus write byte, read byte, send byte, and receive byte commands to configure the device.
  * 
  * The TMP421, TMP422, and TMP423 include series resistance cancellation, programmable non-ideality factor,
- * wide remote temperature measurement range (up to +150°C), and diode fault detection.
+ * wide remote temperature measurement range (up to +150Â°C), and diode fault detection.
  *
  * The TMP421, TMP422, and TMP423 are all available in a SOT23-8 package. The TMP421C is also available in a DSBGA (WCSP) package.
  *
@@ -26,7 +26,7 @@
  * MIT License
  *
  * @section start Getting Started
- * Go to [my Github page](https://github.com/SMotlaq/tmp42x) to get started. You can also see the [functions list](./_t_m_p42x_8c.html) to learn more.
+ * Go to [my Github page](https://github.com/SMotlaq/tmp42x) to get started. You can also see the [functions list](./TMP42x_8c.html) to learn more.
  *
  */
 
